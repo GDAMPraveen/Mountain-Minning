@@ -12,7 +12,7 @@ st.set_page_config(
 # Load Model
 @st.cache_resource
 def load_model():
-    return joblib.load("mining_model.pkl")
+    return joblib.load("best_model.pkl")
 
 model = load_model()
 
